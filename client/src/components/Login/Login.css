@@ -1,0 +1,26 @@
+.login-wrapper{
+  min-height: 80vh;
+}
+.login {
+  left: 0;
+  right: 0;
+ 
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  width: fit-content;
+  background-color: #ceb45f;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.login > input {
+  font-size: 1em;
+  margin: 20px;
+  height: 40px;
+}
+.login > h3 {
+    color: white;
+    padding: 8%;
+    font-size: 1.5em;
+}

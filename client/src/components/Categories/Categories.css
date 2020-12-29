@@ -1,0 +1,26 @@
+.Card {
+  display: inline-block;
+  width: 85%;
+  font-size: 1.2em;
+  overflow: hidden;
+  word-wrap: break-word;
+  cursor: pointer;
+  border-radius: 1.5%;
+  color: black;
+  background-color: #ceb45f;
+  -webkit-box-shadow: -4px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -4px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: -4px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  margin: 2%;
+  padding: 20px;
+  max-height: 400px;
+}
+.Card:hover {
+  background-color: #c3a338;
+}
+
+.Card:active {
+  background-color: #c3a338;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}

@@ -1,0 +1,42 @@
+.card {
+  display: inline-table;
+  width: 85%;
+  font-size: 1.2em;
+  overflow: hidden;
+  word-wrap: break-word;
+  border-radius: 1.5%;
+  color: black;
+  background-color: #ceb45f;
+  -webkit-box-shadow: -4px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -4px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: -4px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  margin: 2%;
+  padding: 20px;
+  margin-bottom: 5%;
+}
+.CardPicture {
+  float: left;
+  padding: 20px;
+}
+.card > p {
+  padding: 1%;
+}
+
+.card > span {
+  top: 0;
+  float: left;
+  font-style: italic;
+}
+.Icons {
+  position: relative;
+  clear: both;
+  float: right;
+  opacity: 75%;
+}
+
+.Icons:hover {
+  opacity: 100%;
+}
+.Icons:active {
+  transform: translateY(4px);
+}

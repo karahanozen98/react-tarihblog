@@ -1,0 +1,60 @@
+.Users {
+  background-color: #ceb45f;
+  max-height: 700px;
+  overflow: auto;
+  width: 100%;
+}
+
+.UsersTable {
+  border-bottom: 1px solid black;
+  text-align: center;
+  min-width: 200px;
+}
+
+.UsersTable > tbody > tr > th,
+td {
+  text-align: center;
+  min-width: 350px;
+}
+.UserDeleteIcon {
+  position: relative;
+  opacity: 75%;
+}
+.UserDeleteIcon:hover {
+  opacity: 100%;
+}
+.UserDeleteIcon:active {
+  transform: translate(4px);
+}
+
+.new-user-component{
+  background-color: #ceb45f;
+}
+input {
+  font-size: 1.2em;
+  margin: 5px;
+}
+
+.Add-user-Button {
+  display: inline-block;
+  padding: 15px 15px;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 20px;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #6695e2;
+  border: none;
+  border-radius: 15px;
+}
+.Add-user-Button:hover {
+  background-color: #2f5ca5;
+}
+
+.Add-user-Button:active {
+  background-color: #2f5ca5;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}

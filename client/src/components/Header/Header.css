@@ -1,0 +1,35 @@
+.Header {
+  background-color: #2b2f3f;
+  text-align: center;
+  min-height: 100px;
+}
+
+.Header > h1 {
+  font-size: 2em;
+  margin: 0;
+  padding: 10px;
+  color: white;
+}
+
+.Table {
+  display: table; /* Allow the centering to work */
+  margin: 0 auto;
+}
+
+.Table > ul {
+  list-style: none;
+  padding: 5px;
+}
+.Table > ul > li {
+  display: inline;
+}
+.Table > ul > li > a {
+  padding-right: 10px;
+  color: white;
+  font: bold;
+}
+.Table > ul > li > span{
+  padding-right: 10px;
+  color: white;
+  font: bold;
+}
